@@ -1,4 +1,5 @@
 import { createRoot } from "react-dom/client";
+import { Hero } from "./components/Hero";
 import "./index.css";
 
 function App() {
@@ -9,4 +10,4 @@ function App() {
   );
 }
 
-createRoot(document.getElementById("root")!).render(<App />);
+createRoot(document.getElementById("root")!).render(<Hero />);
