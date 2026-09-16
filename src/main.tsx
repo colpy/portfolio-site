@@ -5,6 +5,7 @@ import { Features } from "./components/Features";
 import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { CustomCursor } from "./components/CustomCursor";
+import { About } from "./components/About";
 import "./index.css";
 
 
@@ -16,4 +17,4 @@ function App() {
   );
 }
 
-createRoot(document.getElementById("root")!).render(<><CustomCursor /><Hero /><Features /> <Projects /><Contact /></>);
+createRoot(document.getElementById("root")!).render(<><CustomCursor /><Hero /><About /><Features /> <Projects /><Contact /></>);
