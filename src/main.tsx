@@ -1,6 +1,8 @@
 import { createRoot } from "react-dom/client";
 import { Hero } from "./components/Hero";
+import { ScrollReveal } from "./components/ScrollReveal";
 import "./index.css";
+import { Features } from "./components/Features";
 
 function App() {
   return (
@@ -10,4 +12,4 @@ function App() {
   );
 }
 
-createRoot(document.getElementById("root")!).render(<Hero />);
+createRoot(document.getElementById("root")!).render(<><Hero /><Features /></>);
