@@ -6,7 +6,7 @@ import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { CustomCursor } from "./components/CustomCursor";
 import { About } from "./components/About";
-import {Tilt} from "./components/Tilt";
+//import {Tilt} from "./components/Tilt";
 import "./index.css";
 
 
