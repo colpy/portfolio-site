@@ -3,6 +3,7 @@ import { Hero } from "./components/Hero";
 import { ScrollReveal } from "./components/ScrollReveal";
 import { Features } from "./components/Features";
 import { Projects } from "./components/Projects";
+import { Contact } from "./components/Contact";
 import "./index.css";
 
 
@@ -14,4 +15,4 @@ function App() {
   );
 }
 
-createRoot(document.getElementById("root")!).render(<><Hero /><Features /> <Projects /></>);
+createRoot(document.getElementById("root")!).render(<><Hero /><Features /> <Projects /><Contact /></>);
