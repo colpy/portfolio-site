@@ -7,6 +7,7 @@ import { Contact } from "./components/Contact";
 import { CustomCursor } from "./components/CustomCursor";
 import { About } from "./components/About";
 import { Nav } from "./components/Nav";
+import { Loader } from "./components/Loader";
 //import {Tilt} from "./components/Tilt";
 import "./index.css";
 
@@ -20,4 +21,7 @@ function App() {
   );
 }
 
-createRoot(document.getElementById("root")!).render(<><CustomCursor /> <Nav /> <Hero /><About /><Features /> <Projects /><Contact /></>);
+createRoot(document.getElementById("root")!).render(<>
+<Loader />
+<CustomCursor /> <Nav /> <Hero /><About /><Features /> 
+<Projects /><Contact /></>);
