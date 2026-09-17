@@ -4,7 +4,7 @@ const stack = ["React", "TypeScript", "Tailwind", "Vite", "Node.js", "Git"];
 
 export function About() {
   return (
-    <section className="bg-slate-900 text-white py-24 px-6">
+    <section id="about"  className="bg-slate-900 text-white py-24 px-6">
       <ScrollReveal>
         <div className="max-w-2xl mx-auto text-center">
           <div className="w-24 h-24 mx-auto rounded-full bg-blue-600 flex items-center justify-center text-2xl font-bold mb-6">
