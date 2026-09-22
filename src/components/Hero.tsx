@@ -1,11 +1,21 @@
+import { useEffect, useRef } from "react";
+
 export function Hero() {
+  const glowRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const move = (e: MouseEvent) => {
+      if (glowRef.current) {
+        glowRef.current.style.background = `radial-gradient(600px circle at ${e.clientX}px ${e.clientY}px, rgba(59,130,246,0.25), transparent 70%)`;
+      }
+    };
+    window.addEventListener("mousemove", move);
+    return () => window.removeEventListener("mousemove", move);
+  }, []);
+
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-slate-950 text-white text-center px-6">
-      <div className="absolute inset-0 -z-10">
-        <div className="absolute w-[500px] h-[500px] bg-blue-600/30 rounded-full blur-3xl top-[-100px] left-[-100px] animate-blob" />
-        <div className="absolute w-[500px] h-[500px] bg-purple-600/30 rounded-full blur-3xl bottom-[-150px] right-[-100px] animate-blob-slow" />
-        <div className="absolute w-[400px] h-[400px] bg-cyan-500/20 rounded-full blur-3xl top-1/3 left-1/2 animate-blob-delay" />
-      </div>
+      <div ref={glowRef} className="absolute inset-0 -z-10 transition-all duration-200" />
 
       <h1 className="text-5xl md:text-7xl font-extrabold mb-4 animate-fade-in">
         Diego Colpy
