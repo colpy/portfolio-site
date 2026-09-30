@@ -6,13 +6,13 @@ const projects = [
     name: "UI Kit",
     desc: "Librería de componentes React + TypeScript, open source.",
     url: "https://componet-colpy.vercel.app",
-    image: "/projects/ui-kit.png",
+    image: "/projects/ui-kit.jpg",
   },
   {
     name: "Portfolio Site",
     desc: "Este mismo sitio: React, TypeScript, Tailwind y animaciones.",
     url: "https://github.com/colpy/portfolio-site",
-    image: "/projects/portfolio.png",
+    image: "/projects/portfolio.jpg",
   },  
 
   {
@@ -21,6 +21,13 @@ const projects = [
   url: "https://dgoestudio.cl/",
   image: "/projects/sitio1.jpg",
 },
+
+{
+    name: "Javier Pinto Company",
+    desc: "Sitio web de la empresa Javier Pinto Company, con información sobre sus servicios y contacto.",
+    url: "https://javierpintocompany.com/",
+    image: "/projects/pinto.jpg",
+  },
 ];
 
 export function Projects() {
