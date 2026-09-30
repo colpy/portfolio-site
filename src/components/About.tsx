@@ -14,7 +14,8 @@ export function About() {
           <p className="text-slate-400 mb-8">
             Soy Diego Colpy, desarrollador web enfocado en interfaces modernas
             y performantes. Construyo productos con React y TypeScript,
-            y comparto componentes open source para la comunidad.
+            y comparto componentes open source para la comunidad, además estoy 
+            incorporando conocimientos en Data Scince y Machine Learning
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             {stack.map((tech) => (

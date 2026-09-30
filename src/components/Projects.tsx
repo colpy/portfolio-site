@@ -13,13 +13,13 @@ const projects = [
     desc: "Este mismo sitio: React, TypeScript, Tailwind y animaciones.",
     url: "https://github.com/colpy/portfolio-site",
     image: "/projects/portfolio.png",
-  },
+  },  
 
   {
   name: "Mi sitio administrado",
   desc: "Descripción breve de qué es este sitio.",
   url: "https://dgoestudio.cl/",
-  image: "/projects/capturasitiodgo.jpg",
+  image: "/projects/sitio1.jpg",
 },
 ];
 

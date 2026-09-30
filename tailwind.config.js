@@ -21,6 +21,7 @@ keyframes: {
 animation: {
   kenburns: "kenburns 6s ease-out forwards",
 },
+
     },
   },
   plugins: [],
