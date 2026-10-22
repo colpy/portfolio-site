@@ -28,6 +28,13 @@ const projects = [
     url: "https://javierpintocompany.com/",
     image: "/projects/pinto.jpg",
   },
+
+  {
+    name: "Casas Siete Lagos",
+    desc: "Sitio web de la inmobiliaria Casas Siete Lagos, con información sobre sus propiedades y contacto.",
+    url: "https://casas7lagos.cl/",
+    image: "/projects/casas.jpg",
+  },
 ];
 
 export function Projects() {
